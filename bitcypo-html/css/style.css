@@ -451,7 +451,7 @@ ul.email li i {
 }
 
 .wallet_box {
-     background: #fff;
+     background: rgb(153, 182, 176);
      margin-bottom: 30px;
      transition: ease-in all 0.5s;
      padding: 25px 15px 50px 15px;
