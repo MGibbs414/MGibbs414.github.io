@@ -17,6 +17,32 @@ import Fonts
 @import url(font-awesome.min.css);
 @import url(owl.carousel.min.css);
 
+
+/*--------------------------------------------------------------------- 
+My shit
+---------------------------------------------------------------------*/
+.main-section .standard-card {
+     border: 1px solid White;
+   }
+   
+   .standard-card {
+     height: 35%;
+     cursor: pointer;
+     font-size: 6em;
+     text-align: center;
+     position: relative;
+     transition: height 1s, left 1s, top 1s, font-size 1s, position 1s;
+   }
+   
+   .selected-card {
+     position: fixed;
+     height: 80%;
+     /* 			left: 100px; */
+     top: 10%;
+     font-size: 12em;
+     z-index: 10;
+   }
+   
 /*--------------------------------------------------------------------- 
 basic 
 ---------------------------------------------------------------------*/

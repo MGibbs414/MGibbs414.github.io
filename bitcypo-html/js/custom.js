@@ -3,6 +3,22 @@
 ---------------------------------------------------------------------*/
 
 
+$("body").velocity({
+	opacity: 0.7
+  });
+  
+  function card_select() {
+	$('.standard-card').on('click', function() {
+	  $('.standard-card').not(this).removeClass('selected-card col s5');
+	  $(this).toggleClass('selected-card col s5');
+	});
+  };
+  card_select();
+
+
+
+
+
 $(function () {
 	
 	"use strict";
