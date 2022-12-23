@@ -19,22 +19,25 @@ function resumePDF(){
   location.herf + "www.mgibbs414.github.io/resume/public_html/assets/MeganGresume.pdf";
 };
 
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+//End of my code
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
 
