@@ -49,12 +49,6 @@
 *::after {
   box-sizing: border-box;
 }
-/* My shit*/
-
-#more {display: none;}
-
-
-/* End Of My shit*/
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -11687,3 +11681,10 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+/* My shit*/
+
+#more {display: none;}
+
+
+/* End Of My shit*/
