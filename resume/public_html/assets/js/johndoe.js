@@ -13,6 +13,27 @@
 */
 
 // smooth scroll
+
+function resumePDF(){
+  location.herf + "www.mgibbs414.github.io/resume/public_html/assets/MeganGresume.pdf";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
 
