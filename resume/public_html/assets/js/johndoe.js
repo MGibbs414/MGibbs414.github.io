@@ -16,7 +16,7 @@
 
 //my code
 function resumePDF(){
-  location.herf + "www.mgibbs414.github.io/resume/public_html/assets/MeganGresume.pdf";
+  document.location.herf + "www.mgibbs414.github.io/resume/public_html/assets/MeganGresume.pdf";
 };
 
 function myFunction() {
