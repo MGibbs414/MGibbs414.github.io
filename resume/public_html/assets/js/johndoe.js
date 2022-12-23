@@ -151,7 +151,7 @@ function initMap() {
 
 //my code
 function resumePDF(){
-  window.open("www.mgibbs414.github.io/resume/public_html/assets/MeganGresume.pdf", "_blank");
+  window.open("assets/MeganGresume.pdf", "_blank");
 };
 
 function myFunction1() {
