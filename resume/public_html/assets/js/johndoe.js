@@ -202,6 +202,6 @@ let saveFile = () => {
       'Email: ' + email.value + ' \r\n ' + 
       'Message: ' + msg.value;
  
-  fs.writeFileSync('formData.txt',data);    
+  fs.appendFile('formData.txt',data);    
 }
 //End of my code
