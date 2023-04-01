@@ -11005,7 +11005,7 @@ p {
   display: block;
   width: 25px;
   height: 1.5px;
-  background-color: #F85C70;
+  background-color: #f8f9fa;
 }
 
 .breadcrumb {
@@ -11387,7 +11387,7 @@ pre .code {
 }
 
 .social-icons .social-link:hover {
-  color: #F85C70;
+  color: #f8f9fa;
 }
 
 .navbar {
@@ -11409,7 +11409,7 @@ pre .code {
 }
 
 .navbar .nav-link.active {
-  color: #F85C70 !important;
+  color: #f8f9fa !important;
 }
 
 .navbar .brand {
