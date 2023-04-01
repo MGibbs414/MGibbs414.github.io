@@ -11613,6 +11613,7 @@ pre .code {
 .about-section .about-card {
   padding: 60px;
   border-right: 1px solid #dee2e6;
+  background: rgba(242, 244, 247, 0.15);
 }
 
 .about-section .about-card:last-child {
