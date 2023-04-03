@@ -288,7 +288,7 @@ function myFunctionHireMe(){
   window.open('https://mgibbs414.github.io/resume/public_html/contactMe.html')
 }
 
-let saveFile = () => {
+function saveFile () {
 
   // Get the data from each element on the form.
   const name = document.getElementById('txtName');
