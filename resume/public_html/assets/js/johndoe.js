@@ -294,7 +294,6 @@ function saveFile () {
   const name = document.getElementById('txtName');
   const email = document.getElementById('txtEmail');
   const msg = document.getElementById('msg');
-  var data = '';
   const Salert = document.getElementById('Salert');
 
   // This variable stores all the data.
