@@ -5694,6 +5694,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #556426;
   background-color: #edf3db;
   border-color: #e5eecc;
+  display: none;
 }
 
 .alert-success hr {
@@ -11698,7 +11699,4 @@ pre .code {
 #more7 {display: none;}
 #more8 {display: none;}
 
-.Salert {
-  display: none;
-}
 /* End Of My shit*/
