@@ -11607,12 +11607,12 @@ pre .code {
 }
 
 .about-section {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 3px solid #000;
 }
 
 .about-section .about-card {
   padding: 60px;
-  border-right: 1px solid #dee2e6;
+  border-right: 3px solid #000;
   background: rgba(242, 244, 247, 0.15);
 }
 
