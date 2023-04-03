@@ -284,6 +284,9 @@ function myFunction8() {
   }
 }
 
+function myFunctionHireMe(){
+  window.open('https://mgibbs414.github.io/resume/public_html/index.html?#contact')
+}
 
 let saveFile = () => {
 
