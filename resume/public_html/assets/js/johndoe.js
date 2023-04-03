@@ -295,7 +295,7 @@ let saveFile = () => {
   const email = document.getElementById('txtEmail');
   const msg = document.getElementById('msg');
   var data = '';
-  var Salert = document.getElementById('Salert');
+  const Salert = document.getElementById('Salert');
 
   // This variable stores all the data.
   let data = 
@@ -304,6 +304,12 @@ let saveFile = () => {
       'Message: ' + msg.value;
  
   fs.appendFile('formData.txt',data);  
-  Salert.style.display = 'block';
+
+  if (Salert.style.display === "none"){
+    Salert.style.display = "block";
+  }else {
+    Salert.style.display = "none";
+  }
+  
 }
 //End of my code
