@@ -11074,10 +11074,10 @@ p {
 }
 
 .card .card-header.has-icon i {
-  background: #fff;
+  background: #121212;
   position: absolute;
   top: -28px;
-  border: 7px solid white;
+  border: 7px solid #121212;
   overflow: hidden !important;
   font-size: 35px;
 }
@@ -11662,7 +11662,7 @@ pre .code {
 .contact .contact-form-card,
 .contact .contact-info-card {
   padding: 35px;
-  background: #fff;
+  background: #343a40;
   min-height: 500px;
 }
 
@@ -11678,7 +11678,7 @@ pre .code {
   content: '';
   width: 20px;
   height: 2px;
-  background: #F85C70;
+  background: #47D8E0;
   display: block;
   margin-top: 10px;
 }
