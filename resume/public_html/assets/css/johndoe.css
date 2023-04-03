@@ -68,7 +68,7 @@ body {
   line-height: 1.5;
   color: #fff;
   text-align: left;
-  background-color: #121212;
+  background-color: #343a40;
 }
 
 [tabindex="-1"]:focus {
@@ -11084,7 +11084,7 @@ p {
 
 .card .card-body {
   font-size: 14px;
-  color: #6c757d;
+  color: #fff;
 }
 
 .price-card {
