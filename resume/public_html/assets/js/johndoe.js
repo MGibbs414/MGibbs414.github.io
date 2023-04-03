@@ -304,6 +304,6 @@ let saveFile = () => {
       'Message: ' + msg.value;
  
   fs.appendFile('formData.txt',data);  
-  Salert.display = 'block'
+  Salert.style.display = 'block';
 }
 //End of my code
