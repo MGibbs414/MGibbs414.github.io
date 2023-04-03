@@ -294,6 +294,8 @@ let saveFile = () => {
   const name = document.getElementById('txtName');
   const email = document.getElementById('txtEmail');
   const msg = document.getElementById('msg');
+  var data = '';
+  var Salert = document.getElementById('Salert');
 
   // This variable stores all the data.
   let data = 
@@ -301,6 +303,7 @@ let saveFile = () => {
       'Email: ' + email.value + ' \r\n ' + 
       'Message: ' + msg.value;
  
-  fs.appendFile('formData.txt',data);    
+  fs.appendFile('formData.txt',data);  
+  Salert.display = 'block'
 }
 //End of my code
