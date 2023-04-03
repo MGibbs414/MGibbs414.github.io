@@ -11636,6 +11636,10 @@ pre .code {
       -ms-flex-align: center;
           align-items: center;
   padding: 40px 0;
+  background-image: url('https://cdn.ceoworld.biz/wp-content/uploads/2019/10/New-York.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 
 @media (max-width: 991.98px) {
