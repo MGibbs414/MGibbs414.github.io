@@ -11702,6 +11702,10 @@ pre .code {
 #more7 {display: none;}
 #more8 {display: none;}
 
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
 
 /** testimonial **/
 
