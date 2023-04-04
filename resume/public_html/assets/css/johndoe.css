@@ -6825,6 +6825,8 @@ a.close.disabled {
 
 .carousel {
   position: relative;
+  padding-top: 15px;
+  background-color: #121212;
 }
 
 .carousel.pointer-event {
@@ -11715,6 +11717,7 @@ pre .code {
 }
 
 .testimonial .titlepage {
+  text-align: center;
   padding-bottom: 10px;
 }
 
@@ -11737,7 +11740,7 @@ pre .code {
 
 .testomoniam_text span {
   display: block;
-  color: #face34;
+  color: var(--info);
   font-size: 17px;
   padding: 2px 0 30px 0;
   line-height: 20px;
@@ -11774,7 +11777,7 @@ pre .code {
 }
 
 .testimonial .carousel-indicators .active {
-  background-color: #effafc;
+  background-color: var(--info);
 }
 
 
