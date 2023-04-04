@@ -11709,7 +11709,7 @@ pre .code {
 }
 
 .border_testi {
-  border: #fff solid 2px;
+  border: #000 solid 2px;
   padding: 10px 0 50px 10px;
   margin: 0 40px;
 }
