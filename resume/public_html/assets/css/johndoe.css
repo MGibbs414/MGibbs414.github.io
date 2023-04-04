@@ -6835,6 +6835,7 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
+  height: 350px
   overflow: hidden;
 }
 
@@ -11708,13 +11709,13 @@ pre .code {
 }
 
 .border_testi {
-  border: #fff solid 1px;
-  padding: 90px 0 142px 30px;
+  border: #fff solid 2px;
+  padding: 10px 0 50px 10px;
   margin: 0 40px;
 }
 
 .testimonial .titlepage {
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 .posi_in {
@@ -11758,7 +11759,7 @@ pre .code {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  bottom: -52px;
+  bottom: -15px;
   right: 0;
   left: inherit;
 }
