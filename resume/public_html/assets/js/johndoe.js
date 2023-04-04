@@ -311,4 +311,8 @@ function saveFile () {
   }
   
 }
+
+function backButton(){
+  open('https://mgibbs414.github.io/resume/public_html/#blog')
+}
 //End of my code
