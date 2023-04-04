@@ -11715,9 +11715,9 @@ pre .code {
 }
 
 .border_testi {
-  border: #000 solid 2px;
+  border: #000 solid 5px;
   padding: 10px 0 50px 10px;
-  margin: ;
+  margin: 0;
 }
 
 .testimonial .titlepage {
@@ -11777,7 +11777,7 @@ pre .code {
   height: 23px;
   border-radius: 20px;
   display: inline-block;
-  background-color: #face34;
+  background-color:var(--info);
   cursor: pointer;
 }
 
