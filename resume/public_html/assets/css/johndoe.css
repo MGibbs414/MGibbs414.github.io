@@ -11710,14 +11710,14 @@ pre .code {
 /** testimonial **/
 
 .testimonial {
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .border_testi {
   border: #000 solid 2px;
   padding: 10px 0 50px 10px;
-  margin: 0 40px;
+  margin: ;
 }
 
 .testimonial .titlepage {
@@ -11751,7 +11751,8 @@ pre .code {
 }
 
 .testomoniam_text p {
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-right: 10px;
   display: block;
 }
 
@@ -11766,7 +11767,7 @@ pre .code {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  bottom: -15px;
+  bottom: -5px;
   right: 0;
   left: inherit;
 }
