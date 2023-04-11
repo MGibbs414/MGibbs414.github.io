@@ -205,10 +205,10 @@ figure {
 
 img {
   vertical-align: middle;
+  box-align: center;
   border-style: none;
   max-height: 100%;
   max-width: auto;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
