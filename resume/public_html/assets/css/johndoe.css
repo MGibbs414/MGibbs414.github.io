@@ -11707,19 +11707,9 @@ pre .code {
   margin-left: 40px;
 }
 
-.contact1 {
-  vertical-align: middle;
-  border-style: none;
-  max-width: 100%;
-  height: auto;
-  text-align: center;
-}
-
-.contact2 {
-  vertical-align: middle;
-  border-style: none;
-  max-width: 100%;
-  height: auto;
+.center{
+  margin: auto;
+  padding: 10px;
 }
 
 /** testimonial **/
