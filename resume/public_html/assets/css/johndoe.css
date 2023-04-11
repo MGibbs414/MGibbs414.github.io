@@ -11712,19 +11712,21 @@ pre .code {
   border-style: none;
   max-width: 100%;
   height: auto;
-  background: url("https://mgibbs414.github.io/Contact Me!.png");
+  background: url("/https://mgibbs414.github.io/Front-Contactme.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .contact2 {
   vertical-align: middle;
   border-style: none;
   max-width: 100%;
   height: auto;
-  background: url("/https://mgibbs414.github.io/Front-Contactme.png");
+  background: url("https://mgibbs414.github.io/Contact Me!.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 /** testimonial **/
 
 .testimonial {
