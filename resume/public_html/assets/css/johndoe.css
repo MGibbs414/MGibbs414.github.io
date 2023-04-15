@@ -11428,7 +11428,7 @@ pre .code {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -weblit-transform: translate(-50%, -50%);
-  border: 10px solid white;
+  border: 5px solid black;
   -webkit-transition: .5s !important;
   transition: .5s !important;
   -weblit-transition: .5s !important;
@@ -11705,6 +11705,11 @@ pre .code {
 .tab {
   display: inline-block;
   margin-left: 40px;
+}
+
+.center{
+  margin: auto;
+  padding: 10px;
 }
 
 /** testimonial **/
