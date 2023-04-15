@@ -66,9 +66,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
+  color: #212529;
   text-align: left;
-  background-color: #343a40;
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -161,13 +161,13 @@ sup {
 }
 
 a {
-  color: #47d8e0;
+  color: #F85C70;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color:	#e04f47;
+  color: #f51330;
   text-decoration: none;
 }
 
@@ -5055,7 +5055,7 @@ input[type="button"].btn-block {
           flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #121212;
+  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0;
@@ -5694,7 +5694,6 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #556426;
   background-color: #edf3db;
   border-color: #e5eecc;
-  display: none;
 }
 
 .alert-success hr {
@@ -6825,8 +6824,6 @@ a.close.disabled {
 
 .carousel {
   position: relative;
-  padding-top: 15px;
-  background-color: #121212;
 }
 
 .carousel.pointer-event {
@@ -6837,7 +6834,6 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
-  height: 350px;
   overflow: hidden;
 }
 
@@ -7215,7 +7211,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #121212  !important;
+  background-color: #343a40 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10848,7 +10844,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #999999 !important;
+  color: #6c757d !important;
 }
 
 .text-black-50 {
@@ -10971,7 +10967,7 @@ a.text-dark:hover, a.text-dark:focus {
 p {
   font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
-  color: #fff;
+  color: #444;
 }
 
 .title {
@@ -10991,7 +10987,7 @@ p {
 }
 
 .info {
-  color: #fff;
+  color: #6c757d;
   font-size: 14px;
 }
 
@@ -11002,14 +10998,14 @@ p {
 .info span {
   font-weight: 600;
   font-size: 14px;
-  color: #47d8e0;
+  color: #343a40;
 }
 
 .line {
   display: block;
   width: 25px;
   height: 1.5px;
-  background-color: #47D8E0;
+  background-color: #F85C70;
 }
 
 .breadcrumb {
@@ -11078,17 +11074,17 @@ p {
 }
 
 .card .card-header.has-icon i {
-  background: #121212;
+  background: #fff;
   position: absolute;
   top: -28px;
-  border: 7px solid #121212;
+  border: 7px solid white;
   overflow: hidden !important;
   font-size: 35px;
 }
 
 .card .card-body {
   font-size: 14px;
-  color: #fff;
+  color: #6c757d;
 }
 
 .price-card {
@@ -11317,7 +11313,7 @@ p {
 
 .blog-card .content-holder .post-details a {
   margin-right: 10px;
-  color: #fff;
+  color: #444;
   text-decoration: none;
   display: inline-block;
   font-weight: 600;
@@ -11391,7 +11387,7 @@ pre .code {
 }
 
 .social-icons .social-link:hover {
-  color: #6c757d;
+  color: #F85C70;
 }
 
 .navbar {
@@ -11413,7 +11409,7 @@ pre .code {
 }
 
 .navbar .nav-link.active {
-  color: #47D8E0 !important;
+  color: #F85C70 !important;
 }
 
 .navbar .brand {
@@ -11611,13 +11607,12 @@ pre .code {
 }
 
 .about-section {
-  border-bottom: 3px solid #000;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .about-section .about-card {
   padding: 60px;
-  border-right: 3px solid #000;
-  background: rgba(242, 244, 247, 0.15);
+  border-right: 1px solid #dee2e6;
 }
 
 .about-section .about-card:last-child {
@@ -11640,10 +11635,6 @@ pre .code {
       -ms-flex-align: center;
           align-items: center;
   padding: 40px 0;
-  background-image: url('https://cdn.ceoworld.biz/wp-content/uploads/2019/10/New-York.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
 }
 
 @media (max-width: 991.98px) {
@@ -11670,7 +11661,7 @@ pre .code {
 .contact .contact-form-card,
 .contact .contact-info-card {
   padding: 35px;
-  background: #343a40;
+  background: #fff;
   min-height: 500px;
 }
 
@@ -11686,7 +11677,7 @@ pre .code {
   content: '';
   width: 20px;
   height: 2px;
-  background: #47D8E0;
+  background: #F85C70;
   display: block;
   margin-top: 10px;
 }
@@ -11695,13 +11686,8 @@ pre .code {
 
 #more1 {display: none;}
 #more2 {display: none;}
-#more3 {display: none;}
-#more4 {display: none;}
-#more5 {display: none;}
-#more6 {display: none;}
-#more7 {display: none;}
-#more8 {display: none;}
 
+<<<<<<< HEAD
 .tab {
   display: inline-block;
   margin-left: 40px;
@@ -11792,5 +11778,7 @@ pre .code {
 
 
 /** end testimonial **/
+=======
+>>>>>>> parent of b53ee00 (Merge branch 'main' of https://github.com/MGibbs414/MGibbs414.github.io)
 
 /* End Of My shit*/
