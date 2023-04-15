@@ -6,6 +6,7 @@
     <meta name="description" content="Start your development with JohnDoe landing page.">
     <meta name="author" content="Devcrud">
     <title>Megan Gibbs | Landing page</title>
+    <link rel = "icon" href = "assets/imgs/avatar.PNG" type = "image/x-icon">
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <link rel="stylesheet" href="fontawe6/css/fontawesome.min.css">
@@ -13,15 +14,15 @@
 	<link rel="stylesheet" href="assets/css/johndoe.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <a href="components.html" class="btn btn-info btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="https://www.discordapp.com/users/720188502234497025"><i class="fa-brands fa-discord" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://www.twitch.tv/stressedgibby"><i class="fa-brands fa-twitch" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="fa fa-qrcode" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://github.com/MGibbs414"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-info" href="https://www.discordapp.com/users/720188502234497025"><i class="fa-brands fa-discord" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-info" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-info" href="https://www.twitch.tv/stressedgibby"><i class="fa-brands fa-twitch" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-info" href="https://mgibbs414.github.io/"><i class="fa fa-qrcode" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-info" href="https://github.com/MGibbs414"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             </ul>  
             <div class="header-content">
                 <h4 class="header-subtitle" >Hello, I am</h4>
@@ -29,11 +30,11 @@
                 <h1 class="header-title">Megan Gibbs</h1>
                 <h1> &nbsp; </h1>
                 <h6 class="header-mono" >Freelance | Streaming</h6>
-                <button class="btn btn-primary btn-rounded" onclick="resumePDF()"><i class="ti-printer pr-2"></i>Print Resume</button>
+                <button class="btn btn-info btn-rounded" onclick="resumePDF()"><i class="ti-printer pr-2"></i>Print Resume</button>
             </div>
         </div>
     </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" data-spy="affix" data-offset-top="510">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,7 +52,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
-                    <img src="assets/imgs/avatar.PNG" alt="" class="brand-img">
+                    <img src="assets/imgs/Megan Gibbs tech-stream.png" alt="" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">Megan Gibbs</h5>
                         <div class="brand-subtitle">Freelance IT | Streamer</div>
@@ -59,10 +60,10 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Freelance</a>
+                        <a href="#freelance" class="nav-link">Freelance</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog" class="nav-link">Streaming</a>
+                        <a href="#blog1" class="nav-link">Streaming</a>
                     </li>
                     <li class="nav-item last-item">
                         <a href="#contact" class="nav-link">Contact Me</a>
@@ -71,6 +72,12 @@
             </div>
         </div>
     </nav>
+    <div id="Salert" class="alert alert-success alert-dismissible fade show" role="alert">
+        Your Message has been sent!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">×</span>
+        </button>
+    </div>
     <div class="container-fluid">
         <div id="about" class="row about-section">
             <div class="col-lg-4 about-card">
@@ -81,7 +88,7 @@
                     I have done a lot of work on website design, basic IT support, building personal computer setups, and more! I hope to be considered for new positions around the area 
                     and I’m even open to remote work. I hope to start building my knowledge, connections, and experience before I finish my degrees in an attempt to better my chances later in life. 
                     I appreciate any time and consideration! Feel free to download my full resume bellow or contact me from here!</p>
-                    <button onclick="resumePDF()" class="btn btn-outline-danger">
+                    <button onclick="resumePDF()" class="btn btn-outline-info">
                     <i class="icon-down-circled2 "></i> Download My Resume </button>
             </div>
             <div class="col-lg-4 about-card">
@@ -91,7 +98,7 @@
                     <li><span>Birthdate</span> : 04/14/2000</li>
                     <li><span>Email</span> : mlgibbs232@gmail.com</li>
                     <li><span>Phone</span> : + (810) 882-1776</li>
-                    <li><span>Address</span> :  12345 Fake ST NoWhere AB Country.</li>
+                    <li><span>Address</span> :  Bay City, MI</li>
                 </ul>
                 <ul class="social-icons pt-3">
                     <li class="social-item"><a class="social-link" href="https://www.discordapp.com/users/720188502234497025"><i class="fa-brands fa-discord" aria-hidden="true"></i></a></li>
@@ -105,7 +112,7 @@
                 <h3 class="font-weight-light">My Skills and Abilities</h3>
                 <span class="line mb-5"></span>
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div class="col-1 text-info pt-1"><i class="fa-solid fa-laptop-code"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Basic Troubleshooting & Web Development </h6>
                         <p class="subtitle">  While in the Information Technology, networking, and emerging trends class during high school I covered
@@ -114,12 +121,12 @@
                             allowing me to preform routine troubleshooting and maintenance to the stores IT. Along with completing many freelance jobs for website design,
                             tutoring, server management and implementation, and other game design opportunities!</span>
                         </p>
-                        <button onclick="myFunction1()" id="myBtn1" class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Read more</button>
+                        <button onclick="myFunction1()" id="myBtn1" class="btn btn-outline-info"><i class="icon-down-circled2 "></i>Read more</button>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="fa-regular fa-lightbulb"></i></div>
+                    <div class="col-1 text-info pt-1"><i class="fa-regular fa-lightbulb"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6> Critical Thinking </h6>
                         <p class="subtitle">Some examples of how my abilities in critical thinking have been crucial to my work is the fast-paced nature of
@@ -130,7 +137,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="fa-solid fa-clipboard-list"></i></div>
+                    <div class="col-1 text-info pt-1"><i class="fa-solid fa-clipboard-list"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Management and Leadership</h6>
                         <p class="subtitle"> Many of the positions I've held in my jobs have required me to oversee others that I work with or manage the
@@ -141,7 +148,7 @@
                             as a head lifeguard before my time in management for McDonalds which gave me some incredible insight as to
                             how its best to go about managing and arranging a shift rotation that benefits the most involved.</span>
                         </p>
-                        <button onclick="myFunction2()" id="myBtn2" class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Read more</button>
+                        <button onclick="myFunction2()" id="myBtn2" class="btn btn-outline-info"><i class="icon-down-circled2 "></i>Read more</button>
                         <hr>
                     </div>
                 </div>
@@ -152,7 +159,7 @@
     <!--Resume Section-->
     <section class="section" id="resume">
         <div class="container">
-            <h2 class="mb-5"><span class="text-danger">Megan Gibbs </span> | Resume</h2>
+            <h2 class="mb-5"><span class="text-info">Megan Gibbs </span> | Resume</h2>
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <div class="card">
@@ -163,19 +170,19 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2019 - Present</h6>
+                            <h6 class="title text-info">2019 - Present</h6>
                             <P> Shift Supervisor | McDonalds (Bay City) </P>
                             <P class="subtitle">Responsible for monitoring training and development of new employees on shift. Assisted with labor
                                 management costs. led each shift by delegating duties, assigning tasks, and following up with all team members.
                                 Managed time effectively and meet all job responsibilities</P>
                             <hr>
-                            <h6 class="title text-danger">2016 - 2019</h6>
+                            <h6 class="title text-info">2016 - 2019</h6>
                             <P>Crew | McDonalds (Imlay City)</P>
                             <P class="subtitle">Maintained high standards of food quality by reviewing shipments, overseeing preparation and monitoring food quality. Promoted new or high-value items.
                                 Solving any potential issues that arise before impeding on customers without mangers assistance. Experience with training and onboarding dozens of new employees.  
                             </P>
                             <hr>
-                            <h6 class="title text-danger">2015 - 2018</h6>
+                            <h6 class="title text-info">2015 - 2018</h6>
                             <P>Head Lifeguard | Lapeer County</P>
                             <P class="subtitle">After completing lifeguard certification including CPR and water testing. I was given the opportunity to assist
                                 with scheduling, required to plan time for adequate breaks for other employees, and coordinate with other park
@@ -195,7 +202,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6 class="title text-danger">2018 - Present</h6>
+                            <h6 class="title text-info">2018 - Present</h6>
                             <P>B.E Computer Information Systems | Saginaw Valley State University</P>
                             <P class="subtitle">Major: Computer Information Systems <br>
                                 Minor: Cyber Security <br>
@@ -204,13 +211,13 @@
                                 education, insurance and more.
                                 </P>
                             <hr>
-                            <h6 class="title text-danger">2016 - 2018</h6>
+                            <h6 class="title text-info">2016 - 2018</h6>
                             <P>Vocational School | Lapeer County Education Technology Center</P>
                             <P class="subtitle">Related coursework: Students in the Information Technology, networking and emerging trends class will cover
                                 skills for the CompTIA A+ certification, networking, and cybersecurity skills for the CCNA certification, and
                                 programming in Python, C++, and Java languages.</P>
                             <hr>
-                            <h6 class="title text-danger">2014 - 2018</h6>
+                            <h6 class="title text-info">2014 - 2018</h6>
                             <P>High School | Imlay City High School</P>
                             <P class="subtitle">During high school I participated in many extra-curricular activities including but not limited to softball,
                                 basketball, student planning services, video services, and assisted in the MSHAA battle of the fans each year.</P>
@@ -229,23 +236,23 @@
                         <div class="card-body pb-2">
                            <h6>Basic Troubleshooting</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>Wiring</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>Customer Service</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 98%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 98%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>Scheduling </h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>Phone Etiquette</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 98%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 98%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -259,19 +266,49 @@
                         <div class="card-body pb-2">
                            <h6>HTML &amp; CSS</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>JavaScript</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 87%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 87%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>Python</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6>Java</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 77%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 77%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2"> Industry Certifications</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>CCNA</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>CompTIA A+</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>MS Office Specialist</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>OTP1</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>CCNA N+</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -279,6 +316,110 @@
             </div>
         </div>
     </section>
+
+    <!-- testimonial -->
+    <div class="testimonial">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="border_testi">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="titlepage text_align_center">
+                                    <h2 class="mb-5"><span class="text-info">References </span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d_flex">
+                            <div class="col-md-10 offset-md-1">
+                                <div id="testimo" class="carousel slide our_testimonial" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#testimo" data-slide-to="1"></li>
+                                        <li data-target="#testimo" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="https://mgibbs414.github.io/resume/public_html/assets/imgs/clint.jpg" alt="#"/></i>
+                                                                <h3>Matthew Dine</h3>
+                                                                <span>OTP Manager</span>
+                                                                <img src="https://mgibbs414.github.io/resume/public_html/assets/imgs/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="https://mgibbs414.github.io/resume/public_html/assets/imgs/clint.jpg" alt="#"/></i>
+                                                                <h3>Erin Chambers</h3>
+                                                                <span>Utica Community Schools</span>
+                                                                <img src="https://mgibbs414.github.io/resume/public_html/assets/imgs/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="https://mgibbs414.github.io/resume/public_html/assets/imgs/clint.jpg "alt="#"/></i>
+                                                                <h3>Theresa something</h3>
+                                                                <span>McDonalds</span>
+                                                                <img src="https://mgibbs414.github.io/resume/public_html/assets/imgs/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonial -->
 
     <section class="section bg-dark text-center">
         <div class="container">
@@ -289,7 +430,7 @@
                             <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">500</h1>
+                            <h1 class="text-info font-weight-bold font40">500+</h1>
                             <p class="text-light mb-1">Hours Worked</p>
                         </div>
                     </div>
@@ -300,8 +441,8 @@
                             <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">50K</h1>
-                            <p class="text-light mb-1">Project Finished</p>
+                            <h1 class="text-info font-weight-bold font40">50+</h1>
+                            <p class="text-light mb-1">Projects Finished</p>
                         </div>
                     </div>
                 </div>
@@ -311,7 +452,7 @@
                             <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">200K</h1>
+                            <h1 class="text-info font-weight-bold font40">50+</h1>
                             <p class="text-light mb-1">Happy Clients</p>
                         </div>
                     </div>
@@ -322,7 +463,7 @@
                             <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">2k</h1>
+                            <h1 class="text-info font-weight-bold font40">2k</h1>
                             <p class="text-light mb-1">Coffee Drinked</p>
                         </div>
                     </div>
@@ -331,108 +472,118 @@
         </div>
     </section>
     
-    <section class="section" id="service">
+    <section class="section" id="freelance">
         <div class="container">
-            <h2 class="mb-5 pb-4"><span class="text-danger">Megan Gibbs</span> | Freelance Services</h2>
+            <h2 class="mb-5 pb-4"><span class="text-info">Megan Gibbs</span> | Freelance Services</h2>
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                        <div class="card-header has-icon">
-                        <i class="fa-brands fa-steam text-danger" aria-hidden="true"></i>
+                        <i class="fa-brands fa-steam text-info" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Game Moding</h5>
+                            <h5 class="mb-3 card-title text-light">Game Moding</h5>
                             <P class="subtitle">As a skilled freelance game modder, I specialize in hard coding JAVA SRC's for popular games such as Grand Theft Auto Five, Minecraft, and others. 
                                 With extensive experience in the gaming industry, I have a deep understanding of game mechanics and am able to create custom mods that enhance gameplay, add new 
-                                features, and improve overall player experience. I possess expert knowledge of JAVA SRC's and have a proven track record of delivering high-quality, bug-free code 
+                                features, and improve overall player experience. I possess expert knowledge of JAVA SRC's and have a proven track record of delivering high-quali<sapn id="dots3">...</sapn><span id = "more3">ty, bug-free code 
                                 that seamlessly integrates with existing game engines. I am detail-oriented and dedicated to staying up-to-date with the latest industry trends and technologies to 
                                 ensure that my mods are cutting-edge and innovative. With a passion for gaming and a commitment to excellence, I am a collaborative and reliable partner for any game 
-                                modding project.</P>
+                                modding project.</span>
+                            </P>
+                                <button onclick="myFunction3()" id="myBtn3" class="btn btn-outline-info"><i class="icon-down-circled2 "></i>Read more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                        <div class="card-header has-icon">
-                        <i class="fa-solid fa-code text-danger" aria-hidden="true"></i>
+                        <i class="fa-solid fa-code text-info" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Code Rewriting / Website design</h5>
+                            <h5 class="mb-3 card-title text-light">Code Rewriting / Website design</h5>
                             <P class="subtitle"> As a seasoned freelance coder, I possess a unique talent for rewriting Java, 
                                 CSS, JS, Python, or HTML code for clients and returning it in working and cohesive order. With years of experience in the industry, I have developed a keen eye for detail 
                                 and an ability to quickly diagnose and resolve coding issues. I am highly skilled in analyzing existing code, identifying errors, and rewriting it in a manner that improves 
-                                functionality and enhances user experience. My technical expertise in Java, CSS, JS, Python, and HTML enables me to deliver code that is optimized for performance and 
+                                functionality and enhances user experience<sapn id="dots4">...</sapn><span id = "more4">. My technical expertise in Java, CSS, JS, Python, and HTML enables me to deliver code that is optimized for performance and 
                                 functionality. I am a collaborative and communicative professional who takes pride in providing exceptional service to clients. I am committed to staying up-to-date with 
-                                the latest coding trends and technologies to ensure that my clients <sapn id="dots3">...</sapn><span id = "more3">receive the most innovative and effective solutions possible. Whether working on a small project or a 
-                                large-scale overhaul, I am dedicated to delivering high-quality results that exceed client expectations.</span></P>
-                                <button onclick="myFunction3()" id="myBtn3" class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Read more</button>
+                                the latest coding trends and technologies to ensure that my clients receive the most innovative and effective solutions possible. Whether working on a small project or a 
+                                large-scale overhaul, I am dedicated to delivering high-quality results that exceed client expectations.</span>
+                            </P>
+                                <button onclick="myFunction4()" id="myBtn4" class="btn btn-outline-info"><i class="icon-down-circled2 "></i>Read more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                        <div class="card-header has-icon">
-                        <i class="fa-regular fa-file text-danger" aria-hidden="true"></i>
+                        <i class="fa-regular fa-file text-info" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Resume Building</h5>
+                            <h5 class="mb-3 card-title text-light">Resume Building</h5>
                             <P class="subtitle">As a skilled freelance resume builder, I possess a unique ability to craft compelling resumes for clients that effectively highlight their skills, 
                                 experience, and accomplishments. With years of experience in the industry, I have developed a deep understanding of what employers look for in a resume and am skilled 
-                                in presenting information in a way that maximizes impact. I am highly adept at transforming traditional resumes into visually stunning, interactive resume websites that 
+                                in presenting information in a way that maximizes impact. I am highly adept at transforming traditional resumes into visually stunning, interactive res<sapn id="dots5">...</sapn><span id = "more5">ume websites that 
                                 grab the attention of potential employers. My technical expertise in web design and development enables me to create customized solutions that meet clients' unique needs 
                                 and showcase their strengths. I am a collaborative and communicative professional who takes pride in providing exceptional service to clients. I am committed to staying 
-                                up-to-date <sapn id="dots4">...</sapn><span id = "more4">with the latest industry trends and technologies to ensure that my clients receive the most innovative and effective solutions possible. Whether building a 
-                                resume from scratch or transforming an existing one into a dynamic online portfolio, I am dedicated to delivering high-quality results that exceed client expectations.</span></P>
-                                <button onclick="myFunction4()" id="myBtn4" class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Read more</button>
+                                up-to-date with the latest industry trends and technologies to ensure that my clients receive the most innovative and effective solutions possible. Whether building a 
+                                resume from scratch or transforming an existing one into a dynamic online portfolio, I am dedicated to delivering high-quality results that exceed client expectations.</span>
+                            </P>
+                                <button onclick="myFunction5()" id="myBtn5" class="btn btn-outline-info"><i class="icon-down-circled2 "></i>Read more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                        <div class="card-header has-icon">
-                        <i class="fa-solid fa-laptop-code text-danger" aria-hidden="true"></i>
+                        <i class="fa-solid fa-laptop-code text-info" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Website Development</h5>
+                            <h5 class="mb-3 card-title text-light">Website Development</h5>
                             <P class="subtitle">As a skilled freelance web designer and developer, I have a strong background in designing visually appealing websites and hard coding HTML, JS, and CSS. 
                                 With years of experience in the industry, I have a proven track record of delivering high-quality, responsive websites that enhance user experience and drive engagement. 
-                                I possess a deep understanding of web design principles and am skilled in developing custom solutions to meet clients' unique needs. My technical expertise in HTML, JS, 
+                                I possess a deep understanding of web design principles and am skilled in developing custom solutions to meet <sapn id="dots6">...</sapn><span id = "more6">clients' unique needs. My technical expertise in HTML, JS, 
                                 and CSS allows me to create clean, optimized code that is compatible across different devices and browsers. I am a detail-oriented, collaborative professional with a 
                                 passion for delivering exceptional results and exceeding client expectations. Whether creating a new website from scratch or modifying an existing one, I am committed to
-                                providing clients with innovative, effective solutions that meet their goals and objectives.</P>
+                                providing clients with innovative, effective solutions that meet their goals and objectives.</span>
+                            </P>
+                                <button onclick="myFunction6()" id="myBtn6" class="btn btn-outline-info"><i class="icon-down-circled2 "></i>Read more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                        <div class="card-header has-icon">
-                        <i class="fa-solid fa-computer text-danger" aria-hidden="true"></i>
+                        <i class="fa-solid fa-computer text-info" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Personal Computer Building</h5>
+                            <h5 class="mb-3 card-title text-light">Personal Computer Building</h5>
                             <P class="subtitle">As a skilled freelance computer builder, I possess a deep understanding of computer hardware and a passion for building high-performance systems tailored 
                                 to meet clients' specific needs. With years of experience in the industry, I have a proven track record of creating customized builds that maximize functionality and 
-                                performance while staying within budget constraints. I possess expert knowledge of the latest hardware components and am skilled in assembling, testing, and optimizing 
+                                performance while staying within budget constraints. I possess expert knowledge of the latest hardware components and am skilled <sapn id="dots7">...</sapn><span id = "more7">in assembling, testing, and optimizing 
                                 computer systems to ensure that they run smoothly and efficiently. I am detail-oriented and take pride in providing exceptional service to clients, from initial consultation 
                                 to final delivery. Whether building a basic workstation or a high-end gaming rig, I am committed to providing clients with innovative, effective solutions that meet their 
                                 goals and exceed their expectations. I am a collaborative and communicative professional who is dedicated to staying up-to-date with the latest industry trends and 
-                                technologies.</P>
+                                technologies.</span>
+                            </P>
+                                <button onclick="myFunction7()" id="myBtn7" class="btn btn-outline-info"><i class="icon-down-circled2 "></i>Read more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                        <div class="card-header has-icon">
-                        <i class="fa-solid fa-laptop-medical text-danger" aria-hidden="true"></i>
+                        <i class="fa-solid fa-laptop-medical text-info" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Basic IT Troubleshooting</h5>
+                            <h5 class="mb-3 card-title text-light">Basic IT Troubleshooting</h5>
                             <P class="subtitle">As a skilled freelance IT technician, I possess a deep understanding of computer hardware and a talent for troubleshooting basic IT issues. 
                                 With years of experience in the industry, I have developed a keen eye for identifying hardware issues, resolving software conflicts, and optimizing system performance. 
-                                I am skilled in diagnosing and resolving a wide range of issues, from hardware failures to software glitches, and am able to quickly and efficiently restore systems to 
+                                I am skilled in diagnosing and resolving a wide range of issues, from hardware failures to software glitches, and am able to quickly and efficiently restore <sapn id="dots8">...</sapn><span id = "more8">systems to 
                                 optimal performance. I am detail-oriented and take pride in providing exceptional service to clients, from initial consultation to final resolution. Whether providing 
                                 remote support or in-person assistance, I am committed to providing clients with innovative, effective solutions that meet their needs and exceed their expectations. I 
-                                am a collaborative and communicative professional who is dedicated to staying up-to-date with the latest industry trends and technologies.</P>
+                                am a collaborative and communicative professional who is dedicated to staying up-to-date with the latest industry trends and technologies.</span>
+                            </P>
+                            <button onclick="myFunction8()" id="myBtn8" class="btn btn-outline-info"><i class="icon-down-circled2 "></i>Read more</button>
                         </div>
                     </div>
                 </div>
@@ -441,15 +592,16 @@
         <section class="section bg-dark py-5">
             <div class="container text-center">
                 <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
-                <button class="btn bg-primary w-lg" >Hire me</button>
+                <button onclick="myFunctionHireMe()" id="HireMe" class="btn bg-info w-lg" >Hire me</button>
             </div>
         </section>    
     </section>
 
+
     <!--
         <section class="section bg-custom-gray" id="price">
         <div class="container">
-            <h1 class="mb-5"><span class="text-danger">Packs</span> Pricing</h1>
+            <h1 class="mb-5"><span class="text-info">Packs</span> Pricing</h1>
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-3">
                     <div class="price-card text-center mb-4">
@@ -465,7 +617,7 @@
                             <li class="list-item"><span class="text-muted">No Domain</span></li>
                             <li class="list-item">1 <span class="text-muted">User</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <button class="btn btn-info btn-rounded w-lg">Subscribe</button>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -482,7 +634,7 @@
                             <li class="list-item">1<span class="text-muted">Domain</span></li>
                             <li class="list-item">5 <span class="text-muted">User</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <button class="btn btn-info btn-rounded w-lg">Subscribe</button>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -499,7 +651,7 @@
                             <li class="list-item">5<span class="text-muted"> Domain</span></li>
                             <li class="list-item">15<span class="text-muted">User</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <button class="btn btn-info btn-rounded w-lg">Subscribe</button>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -516,7 +668,7 @@
                             <li class="list-item">10<span class="text-muted"> Domain</span></li>
                             <li class="list-item">Unlimite<span class="text-muted">User</span></li>
                         </ul>
-                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                        <button class="btn btn-info btn-rounded w-lg">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -524,10 +676,10 @@
     </section>
     -->
 
-    <!-- Portfolio Section -->
+    <!-- Portfolio Section 
     <section class="section bg-custom-gray" id="portfolio">
         <div class="container">
-            <h1 class="mb-5"><span class="text-danger">Megan Gibbs</span> | Freelance</h1>
+            <h1 class="mb-5"><span class="text-info">Megan Gibbs</span> | Freelance</h1>
             <div class="portfolio">
                 <div class="filters">
                     <a href="#" data-filter=".new" class="active">
@@ -706,23 +858,99 @@
             </div>  
         </div>            
     </section>
-    <!-- End of portfolio section -->
+    End of portfolio section -->
 
     <section class="section" id="blog">
         <div class="container">
-            <h2 class="mb-5">Latest <span class="text-danger">Streaming Info and Videos</span></h2>
+            <h2 class="mb-5">Megan Gibbs <span class="text-info">| Freelance</span></h2>
             <div class="row">
                 <!-- blog-card -->
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="https://static.fandomspot.com/images/08/8551/00-featured-realism-dispatch-enhancement-gta-5.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
-                        <h6 class="title">Consectetur adipisicing elit</h6>
+                        <h6 class="title">Grad Theft Auto V Modded</h6>
 
                         <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
+                            <a href="#home">By: Megan Gibbs</a>
+                            <a href="#"><i class="ti-heart text-info"></i> 234</a>
+                            <a href="#"><i class="ti-comment"></i> 123</a>
+                        </p>
+                        <p>
+                            <span class="tab"></span> SRC scripts are a popular way to add or change features in the game Grand Theft Auto V. These scripts are written in the game's native language, which is C++, and 
+                            are executed by the game's engine. SRC scripts can be used to add new vehicles, weapons, and missions, as well as modify existing gameplay mechanics. Some popular SRC 
+                            scripts for Grand Theft Auto V include the Native Trainer, which allows players to spawn vehicles and weapons, and the Open All Interiors mod, which opens up previously 
+                            inaccessible buildings in the game.
+                        </p>
+                        <p>
+                            <b><span class="tab"></span> However, it's important to note that using SRC scripts can potentially lead to issues with the game's stability and may even result in a ban from online play. It's 
+                                recommended to use caution when modifying an...</b>
+                        </p>
+
+                        <a href="https://MGibbs414.github.io/resume/public_html/blogs/blog1.html" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div>
+                <!-- end of blog wrapper -->
+
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="https://i0.wp.com/networkustad.com/wp-content/uploads/2023/01/dsfs.jpg?fit=900%2C600&amp;ssl=1" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Resume Building - Resume Websites</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Megan Gibbs</a>
+                            <a href="#"><i class="ti-heart text-info"></i> 456</a>
+                            <a href="#"><i class="ti-comment"></i> 264</a>
+                        </p>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Code rewriting, editing, or writing</h4>
+
+                        <p class="post-details">
+                            <a href="#">By: Megan Gibbs</a>
+                            <a href="#"><i class="ti-heart text-info"></i> 431</a>
+                            <a href="#"><i class="ti-comment"></i> 312</a>
+                        </p>
+                        
+                        <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="blog1">
+        <div class="container">
+            <h2 class="mb-5">Latest <span class="text-info">| Streaming Info and Videos</span></h2>
+            <div class="row">
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/0901/QIneWCHPuvanEThqShUR9SGn.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Call of Duty Warzone</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Megan Gibbs</a>
+                            <a href="#"><i class="ti-heart text-info"></i> 234</a>
                             <a href="#"><i class="ti-comment"></i> 123</a>
                         </p>
                         
@@ -739,14 +967,14 @@
                 <!-- blog-card -->
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="https://i.ytimg.com/vi/zOKdPCQ3Tes/maxresdefault.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
-                        <h6 class="title">Explicabo illo</h6>
+                        <h6 class="title">Call of Duty Modern Warfare II - Ranked Play</h6>
 
                         <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                            <a href="#">By: Megan Gibbs</a>
+                            <a href="#"><i class="ti-heart text-info"></i> 456</a>
                             <a href="#"><i class="ti-comment"></i> 264</a>
                         </p>
                         
@@ -758,14 +986,14 @@
                 <!-- blog-card -->
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202302/0119/a56551be203c095b4142a026780b1911b0d4ac603573b4a1.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
-                        <h4 class="title">Porro Quisqua</h4>
+                        <h4 class="title">Apex Legends</h4>
 
                         <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 431</a>
+                            <a href="#">By: Megan Gibbs</a>
+                            <a href="#"><i class="ti-heart text-info"></i> 431</a>
                             <a href="#"><i class="ti-comment"></i> 312</a>
                         </p>
                         
@@ -780,12 +1008,11 @@
     </section>
 
     <div class="section contact" id="contact">
-        <div id="map" class="map"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-form-card">
-                        <h4 class="contact-title">Send a message</h4>
+                        <h4 class="contact-title">Send Me a Message</h4>
                         <form action="">
                             <div class="form-group">
                                 <input  class="form-control" type="text" id="txtName" placeholder="Name *" required>
@@ -797,7 +1024,7 @@
                                 <textarea class="form-control" id=" msg "placeholder="Message *" rows="7" required></textarea>
                             </div>
                             <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary" onclick="saveFile()">Send Message</button>
+                                <button type="submit" class="form-control btn btn-info" onclick="saveFile()">Send Message</button>
                             </div>
                         </form>
                     </div>
@@ -818,7 +1045,7 @@
                                 <i class="ti-map-alt icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">12345 Fake ST NoWhere AB Country.</span></h6>
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">Bay City, MI</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -826,15 +1053,15 @@
                                 <i class="ti-envelope icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@website.com</span></h6>
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">MlGibbs232@gmail.com</span></h6>
                             </div>
                         </div>
                         <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="https://www.discordapp.com/users/720188502234497025"><i class="fa-brands fa-discord" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="https://www.twitch.tv/stressedgibby"><i class="fa-brands fa-twitch" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="fa fa-qrcode" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="https://github.com/MGibbs414"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-info" href="https://www.discordapp.com/users/720188502234497025"><i class="fa-brands fa-discord" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-info" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-info" href="https://www.twitch.tv/stressedgibby"><i class="fa-brands fa-twitch" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-info" href="#"><i class="fa fa-qrcode" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-info" href="https://github.com/MGibbs414"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                         </ul> 
                     </div>
                 </div>
@@ -845,7 +1072,7 @@
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-info"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-info" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
             </p>
         </div>
     </footer>
