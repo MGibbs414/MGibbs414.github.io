@@ -5909,6 +5909,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: -1px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  color: black;
 }
 
 .list-group-item:first-child {
