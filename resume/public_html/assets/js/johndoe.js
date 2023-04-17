@@ -13,7 +13,7 @@
 */
 
 // smooth scroll
-import { appendFile } from 'fs';
+const fs = require('fs');
 
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
@@ -302,7 +302,7 @@ function saveFile () {
       'Email: ' + email.value + ' \r\n ' + 
       'Message: ' + msg.value;
  
-  appendFile('formData.txt',data.valueOf);  
+  fs.appendFile('formData.txt',data.valueOf);  
 
   if (Salert.style.display === "none"){
     Salert.style.display = "block";
