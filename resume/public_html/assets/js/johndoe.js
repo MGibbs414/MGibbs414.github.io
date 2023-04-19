@@ -297,12 +297,12 @@ function saveFile () {
   const Salert = document.getElementById('Salert');
 
   // This variable stores all the data.
-  let data = 
+  var data = 
       '\r Name: ' + name.value + ' \r\n ' + 
       'Email: ' + email.value + ' \r\n ' + 
       'Message: ' + msg.value;
  
-  fs.appendFile('formData.txt',data.valueOf);  
+  fs.appendFile('https://github.com/MGibbs414/MGibbs414.github.io/blob/0bddd60f00077e1aee9faeda41abd5b23a54231e/resume/public_html/assets/js/formData.txt',data.valueOf);  
 
   if (Salert.style.display === "none"){
     Salert.style.display = "block";
