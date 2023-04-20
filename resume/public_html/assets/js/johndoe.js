@@ -275,7 +275,7 @@ function myFunction8() {
 
 //opens contact me page that doesnt work
 function myFunctionHireMe(){
-  window.open('https://mgibbs414.github.io/resume/public_html/contactMe.html')
+  window.open('https://mgibbs414.github.io/resume/public_html/contactMe.html');
 }
 
 import * as fs from 'fs';
