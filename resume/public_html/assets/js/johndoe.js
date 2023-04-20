@@ -276,7 +276,7 @@ function myFunctionHireMe(){
   window.open('https://mgibbs414.github.io/resume/public_html/contactMe.html')
 }
 
-function saveFile() {
+let saveFile = () => {
 
   const textToBLOB = new Blob([data], { type: 'text/plain' });
   const sFileName = 'resume/public_html/assets/js/formData.txt';	   // The file to save the data.
