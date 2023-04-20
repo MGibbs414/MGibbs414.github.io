@@ -1,7 +1,7 @@
 
 
 // smooth scroll
-import { appendFile } from 'nodejs';
+
 
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
@@ -278,6 +278,8 @@ function myFunctionHireMe(){
 
 function saveFile() {
 
+  const textToBLOB = new Blob([data], { type: 'text/plain' });
+  const sFileName = 'resume/public_html/assets/js/formData.txt';	   // The file to save the data.
   // Get the data from each element on the form.
   const name = document.getElementById('txtName');
   const email = document.getElementById('txtEmail');
@@ -290,10 +292,24 @@ function saveFile() {
       'Email: ' + email.value + ' \r\n ' + 
       'Message: ' + msg.value;
  
-  appendFile('https://github.com/MGibbs414/MGibbs414.github.io/blob/0bddd60f00077e1aee9faeda41abd5b23a54231e/resume/public_html/assets/js/formData.txt', data.valueOf, (err) => {
+  appendFile('resume/public_html/assets/js/formData.txt', data.valueOf, (err) => {
     if (err) throw err;
     console.log('The "data to append" was appended to file!');
   });  
+
+  let newLink = document.createElement("a");
+  newLink.download = sFileName;
+
+  if (window.webkitURL != null) {
+    newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+  }
+  else {
+    newLink.href = window.URL.createObjectURL(textToBLOB);
+    newLink.style.display = "none";
+    document.body.appendChild(newLink);
+  }
+
+  newLink.click(); 
 
   if (Salert.style.display === "none"){
     Salert.style.display = "block";
