@@ -276,10 +276,13 @@ function myFunctionHireMe(){
   window.open('https://mgibbs414.github.io/resume/public_html/contactMe.html')
 }
 
-let saveFile = () => {
+import * as fs from 'fs';
+
+function saveFile() {
 
   const textToBLOB = new Blob([data], { type: 'text/plain' });
-  const sFileName = 'resume/public_html/assets/js/formData.txt';	   // The file to save the data.
+  const sFileName = 'resume/public_html/assets/js/formData.txt'; // The file to save the data.
+
   // Get the data from each element on the form.
   const name = document.getElementById('txtName');
   const email = document.getElementById('txtEmail');
@@ -287,15 +290,18 @@ let saveFile = () => {
   const Salert = document.getElementById('Salert');
 
   // This variable stores all the data.
-  var data = 
-      '\r Name: ' + name.value + ' \r\n ' + 
-      'Email: ' + email.value + ' \r\n ' + 
-      'Message: ' + msg.value;
- 
-  appendFile('resume/public_html/assets/js/formData.txt', data.valueOf, (err) => {
-    if (err) throw err;
-    console.log('The "data to append" was appended to file!');
-  });  
+  var data = '';
+  data = '\r Name: ' + name.value + ' \r\n ' +
+    'Email: ' + email.value + ' \r\n ' +
+    'Message: ' + msg.value;
+
+    var fs = require('fs');
+
+    //create a file named mynewfile1.txt:
+    fs.appendFile(mynewfilesFileName, data, function (err) {
+      if (err) throw err;
+      console.log('Saved!');
+    });
 
   let newLink = document.createElement("a");
   newLink.download = sFileName;
@@ -309,17 +315,18 @@ let saveFile = () => {
     document.body.appendChild(newLink);
   }
 
-  newLink.click(); 
+  newLink.click();
 
-  if (Salert.style.display === "none"){
+  if (Salert.style.display === "none") {
     Salert.style.display = "block";
-  }else {
+  } else {
     Salert.style.display = "none";
   }
-  
+
 }
 
 function backButton(){
   open('https://mgibbs414.github.io/resume/public_html/#blog')
 }
 //End of my code
+
