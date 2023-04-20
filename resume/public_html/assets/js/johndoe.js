@@ -278,52 +278,71 @@ function myFunctionHireMe(){
 
 import * as fs from 'fs';
 
-function saveFile() {
 
-  const textToBLOB = new Blob([data], { type: 'text/plain' });
-  const sFileName = 'resume/public_html/assets/js/formData.txt'; // The file to save the data.
+$(function saveFile() {
 
-  // Get the data from each element on the form.
-  const name = document.getElementById('txtName');
-  const email = document.getElementById('txtEmail');
-  const msg = document.getElementById('msg');
-  const Salert = document.getElementById('Salert');
+  $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
+      preventSubmit: true,
+      submitError: function ($form, event, errors) {
+      },
+      submitSuccess: function ($form, event) {
+          event.preventDefault();
+          var name = $("input#txtName").val();
+          var email = $("input#txtEmail").val();
+          var message = $("textarea#Message").val();
 
-  // This variable stores all the data.
-  var data = '';
-  data = '\r Name: ' + name.value + ' \r\n ' +
-    'Email: ' + email.value + ' \r\n ' +
-    'Message: ' + msg.value;
+          $this = $("#sendMessageButton");
+          $this.prop("disabled", true);
 
-    var fs = require('fs');
+          $.ajax({
+              url: "contact.php",
+              type: "POST",
+              data: {
+                  name: name,
+                  email: email,
+                  message: message
+              },
+              cache: false,
+              success: function () {
+                  $('#success').html("<div class='alert alert-success'>");
+                  $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                          .append("</button>");
+                  $('#success > .alert-success')
+                          .append("<strong>Your message has been sent. </strong>");
+                  $('#success > .alert-success')
+                          .append('</div>');
+                  $('#contactForm').trigger("reset");
+              },
+              error: function () {
+                  $('#success').html("<div class='alert alert-danger'>");
+                  $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                          .append("</button>");
+                  $('#success > .alert-danger').append($("<strong>").text("Sorry " + name + ", it seems that our mail server is not responding. Please try again later!"));
+                  $('#success > .alert-danger').append('</div>');
+                  $('#contactForm').trigger("reset");
+              },
+              complete: function () {
+                  setTimeout(function () {
+                      $this.prop("disabled", false);
+                  }, 1000);
+              }
+          });
+      },
+      filter: function () {
+          return $(this).is(":visible");
+      },
+  });
 
-    //create a file named mynewfile1.txt:
-    fs.appendFile(mynewfilesFileName, data, function (err) {
-      if (err) throw err;
-      console.log('Saved!');
-    });
+  $("a[data-toggle=\"tab\"]").click(function (e) {
+      e.preventDefault();
+      $(this).tab("show");
+  });
+});
 
-  let newLink = document.createElement("a");
-  newLink.download = sFileName;
+$('#name').focus(function () {
+  $('#success').html('');
+});
 
-  if (window.webkitURL != null) {
-    newLink.href = window.webkitURL.createObjectURL(textToBLOB);
-  }
-  else {
-    newLink.href = window.URL.createObjectURL(textToBLOB);
-    newLink.style.display = "none";
-    document.body.appendChild(newLink);
-  }
-
-  newLink.click();
-
-  if (Salert.style.display === "none") {
-    Salert.style.display = "block";
-  } else {
-    Salert.style.display = "none";
-  }
-
-}
 
 function backButton(){
   open('https://mgibbs414.github.io/resume/public_html/#blog')
