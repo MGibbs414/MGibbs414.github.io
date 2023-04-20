@@ -13,7 +13,7 @@
 */
 
 // smooth scroll
-const fs = require('fs');
+import { appendFile } from 'fs';
 
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
@@ -290,7 +290,6 @@ function myFunctionHireMe(){
 
 function saveFile () {
 
-  const fs = require('fs');
   // Get the data from each element on the form.
   const name = document.getElementById('txtName');
   const email = document.getElementById('txtEmail');
@@ -303,7 +302,10 @@ function saveFile () {
       'Email: ' + email.value + ' \r\n ' + 
       'Message: ' + msg.value;
  
-  fs.appendFile('https://github.com/MGibbs414/MGibbs414.github.io/blob/0bddd60f00077e1aee9faeda41abd5b23a54231e/resume/public_html/assets/js/formData.txt',data.valueOf);  
+  appendFile('https://github.com/MGibbs414/MGibbs414.github.io/blob/0bddd60f00077e1aee9faeda41abd5b23a54231e/resume/public_html/assets/js/formData.txt', data.valueOf, (err) => {
+    if (err) throw err;
+    console.log('The "data to append" was appended to file!');
+  });  
 
   if (Salert.style.display === "none"){
     Salert.style.display = "block";
