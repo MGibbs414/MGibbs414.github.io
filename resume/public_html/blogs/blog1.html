@@ -450,22 +450,23 @@
 
     <div class="section contact" id="contact">
         <div class="container">
-            <div class="row">
+            <div id="success"></div>
+            <div class="row" name="sentMessage" id="contactForm" novalidate="novalidate">
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Send Me a Message</h4>
-                        <form action="">
+                        <form method="post" action="https://forms.un-static.com/forms/e0208c5f701f7d84d77f30be6a0c0205c13d0b73">
                             <div class="form-group">
-                                <input  class="form-control" type="text" id="txtName" placeholder="Name *" required>
+                                <input  id="txtName" name="name" placeholder="Name *" type="text" required="required" class="form-control" >
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" id="txtEmail" placeholder="Email *" required>
+                                <input id="txtEmail" name="email" placeholder="Email *" type="email" class="form-control" required="required">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id=" msg "placeholder="Message *" rows="7" required></textarea>
+                                <textarea id="msg" name="msg" class="form-control" placeholder="Message *" rows="7" required="required"></textarea>
                             </div>
                             <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-info" onclick="saveFile()">Send Message</button>
+                                <button name="submit" type="submit" id="sendMessageButton" class="form-control btn btn-info" >Send Message</button>
                             </div>
                         </form>
                     </div>
