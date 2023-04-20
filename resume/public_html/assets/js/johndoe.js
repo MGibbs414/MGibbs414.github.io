@@ -280,7 +280,6 @@ function myFunctionHireMe(){
   window.open('https://mgibbs414.github.io/resume/public_html/contactMe.html');
 }
 
-import * as fs from 'fs';
 
 //help from https://un-static.com/how-to/add-github-pages-contact-form/
 
