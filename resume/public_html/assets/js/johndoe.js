@@ -290,6 +290,7 @@ function myFunctionHireMe(){
 
 function saveFile () {
 
+  const fs = require('fs');
   // Get the data from each element on the form.
   const name = document.getElementById('txtName');
   const email = document.getElementById('txtEmail');
