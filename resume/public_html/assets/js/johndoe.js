@@ -274,8 +274,7 @@ function myFunction8() {
 }
 
 //opens contact me page that doesnt work
-const button = document.querySelector('button[id="HireMe"]');
-button.addEventListener('click', myFunctionHireMe);
+document.getElementById("HireMe").onclick = () => { myFunctionHireMe(); };
 
 function myFunctionHireMe(){
   window.open('https://mgibbs414.github.io/resume/public_html/contactMe.html');
