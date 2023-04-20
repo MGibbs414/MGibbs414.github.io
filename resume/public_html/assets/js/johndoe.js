@@ -144,6 +144,7 @@ function resumePDF(){
   window.open("assets/MeganGresume.pdf", "_blank");
 };
 
+//more dots functions
 function myFunction1() {
   var dots = document.getElementById("dots1");
   var moreText = document.getElementById("more1");
@@ -272,12 +273,14 @@ function myFunction8() {
   }
 }
 
+//opens contact me page that doesnt work
 function myFunctionHireMe(){
   window.open('https://mgibbs414.github.io/resume/public_html/contactMe.html')
 }
 
 import * as fs from 'fs';
 
+//help from https://un-static.com/how-to/add-github-pages-contact-form/
 
 contact.saveData = function() {
 
@@ -343,7 +346,7 @@ $('#name').focus(function () {
   $('#success').html('');
 });
 
-
+//function for back to home button - directs to blog section
 function backButton(){
   open('https://mgibbs414.github.io/resume/public_html/#blog')
 }
