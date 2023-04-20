@@ -279,7 +279,7 @@ function myFunctionHireMe(){
 import * as fs from 'fs';
 
 
-$(function saveFile() {
+contact.saveData = function() {
 
   $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
       preventSubmit: true,
@@ -337,7 +337,7 @@ $(function saveFile() {
       e.preventDefault();
       $(this).tab("show");
   });
-});
+};
 
 $('#name').focus(function () {
   $('#success').html('');
