@@ -11871,6 +11871,12 @@ pre .code {
     max-width: 100%;
     min-width: 100%;
   }
+  .ref-card .img-holder2 {
+    padding: 3px;
+  }
+  .ref-card .img-holder3 {
+    padding: 3px
+  }
 }
 
 /** end testimonial **/
