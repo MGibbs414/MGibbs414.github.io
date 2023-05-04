@@ -351,5 +351,10 @@ $('#name').focus(function () {
 function backButton(){
   open('https://mgibbs414.github.io/resume/public_html/#blog')
 }
+
+//Function to take you to blog home page
+function myFunctionBlogHome(){
+  window.open('https://mgibbs414.github.io/resume/public_html/blogHome.html');
+}
 //End of my code
 
