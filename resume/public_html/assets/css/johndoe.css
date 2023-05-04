@@ -11704,6 +11704,10 @@ pre .code {
 #more7 {display: none;}
 #more8 {display: none;}
 
+.blogsbtn{
+  text-align: right;
+}
+
 .tab {
   display: inline-block;
   margin-left: 40px;
