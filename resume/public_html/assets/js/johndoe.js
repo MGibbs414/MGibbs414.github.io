@@ -354,7 +354,7 @@ function backButton(){
 
 //Function to take you to blog home page
 function myFunctionBlogHome(){
-  window.open('https://mgibbs414.github.io/resume/public_html/blogHome.html');
+  window.open('https://mgibbs414.github.io/resume/public_html/blogs/blogHome.html');
 }
 //End of my code
 
