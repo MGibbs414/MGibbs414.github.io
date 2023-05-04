@@ -11705,7 +11705,8 @@ pre .code {
 #more8 {display: none;}
 
 .blogsbtn{
-  text-align: right;
+  display: inline-block;
+  margin-left: 400px;
 }
 
 .tab {
