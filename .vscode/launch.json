@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "grading",
+            "request": "launch",
+            "mainClass": "Other.Kattis.grading",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "jobexpenses",
+            "request": "launch",
+            "mainClass": "Other.Kattis.jobexpenses",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "hangman",
+            "request": "launch",
+            "mainClass": "Other.Kattis.hangman",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "quickestimate",
+            "request": "launch",
+            "mainClass": "Other.Kattis.quickestimate",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "encodedmessage",
+            "request": "launch",
+            "mainClass": "Other.Kattis.encodedmessage",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "easiest",
+            "request": "launch",
+            "mainClass": "Other.Kattis.easiest",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "rectanglearea",
+            "request": "launch",
+            "mainClass": "Other.Kattis.rectanglearea",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "triarea",
+            "request": "launch",
+            "mainClass": "Other.Kattis.triarea",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "oddities",
+            "request": "launch",
+            "mainClass": "Other.Kattis.oddities",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "twosum",
+            "request": "launch",
+            "mainClass": "Other.Kattis.twosum",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "cold",
+            "request": "launch",
+            "mainClass": "Other.Kattis.cold",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "digitswap",
+            "request": "launch",
+            "mainClass": "Other.Kattis.digitswap",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "timeloop",
+            "request": "launch",
+            "mainClass": "Other.Kattis.timeloop",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
             "name": "batterup",
             "request": "launch",
             "mainClass": "Other.Kattis.batterup",
