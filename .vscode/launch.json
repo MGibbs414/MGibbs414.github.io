@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fodelsedagsmemorisering",
+            "request": "launch",
+            "mainClass": "Other.Kattis.Java.fodelsedagsmemorisering",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "buildinghighways",
+            "request": "launch",
+            "mainClass": "Other.Kattis.Java.buildinghighways",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "dicegame",
+            "request": "launch",
+            "mainClass": "Other.Kattis.Java.dicegame",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "eligibility",
+            "request": "launch",
+            "mainClass": "Other.Kattis.Java.eligibility",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "parking2",
+            "request": "launch",
+            "mainClass": "Other.Kattis.Java.parking2",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "speedlimit",
+            "request": "launch",
+            "mainClass": "Other.Kattis.speedlimit",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "helpaphd",
+            "request": "launch",
+            "mainClass": "Other.Kattis.helpaphd",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
+            "name": "maptiles",
+            "request": "launch",
+            "mainClass": "Other.Kattis.maptiles",
+            "projectName": "MGibbs414.github.io_21fddcd3"
+        },
+        {
+            "type": "java",
             "name": "grading",
             "request": "launch",
             "mainClass": "Other.Kattis.grading",

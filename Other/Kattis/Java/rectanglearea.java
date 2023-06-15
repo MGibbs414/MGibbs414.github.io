@@ -1,4 +1,4 @@
-package Other.Kattis;
+package Other.Kattis.Java;
 import java.util.Scanner;
 
 public class rectanglearea {

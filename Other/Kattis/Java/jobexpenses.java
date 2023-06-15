@@ -1,4 +1,4 @@
-package Other.Kattis;
+package Other.Kattis.Java;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class jobexpenses {
         int n = scanner.nextInt();
         int totalExpense = 0;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) { 
             int num = scanner.nextInt();
             if (num < 0) {
                 totalExpense += num;
