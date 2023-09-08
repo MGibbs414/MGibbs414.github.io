@@ -356,5 +356,12 @@ function backButton(){
 function myFunctionBlogHome(){
   window.open('https://mgibbs414.github.io/resume/public_html/blogs/blogHome.html');
 }
+
+window.onload = function()
+{
+  const now = new Date().getFullYear();
+  const age = Math.abs(now - 2000);
+  document.getElementById("curYear").innerHTML = age;
+}
 //End of my code
 
