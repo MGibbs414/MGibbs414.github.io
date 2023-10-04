@@ -280,6 +280,10 @@ function myFunctionHireMe(){
   window.open('https://mgibbs414.github.io/resume/public_html/contactMe.html');
 }
 
+function myFunctionKattis(){
+  window.open('https://open.kattis.com/universities/svsu.edu');
+}
+
 
 //help from https://un-static.com/how-to/add-github-pages-contact-form/
 
