@@ -281,7 +281,7 @@ function myFunctionHireMe(){
 }
 
 function myFunctionKattis(){
-  window.open('https://open.kattis.com/universities/svsu.edu');
+  window.open('https://open.kattis.com/affiliations/svsu.edu');
 }
 
 
