@@ -11717,7 +11717,9 @@ pre .code {
 .center{
   margin: auto;
   padding: 10px;
+  height: calc(100vh - 60px); /* adjust 60px to your header height */
 }
+
 
 /** testimonial **/
 
